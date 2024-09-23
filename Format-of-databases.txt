@@ -1,0 +1,10 @@
+There is no space between any field; it is read and written byte by byte.
+
+departments.dat
+dept->dept_id name_length dept->name
+
+students.dat
+stud->student_id name_length stud->student_name stud->student_gender stud->department_id
+
+grades.dat
+grade->student_id grade->english grade->math grade->history
